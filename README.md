@@ -1,0 +1,2 @@
+# ScriptsAndConsiderations
+燕鹰战队组内自用的一些脚本和注意事项，用来统计视觉组出现的各种问题
