@@ -1,3 +1,7 @@
+#作者：周彦
+#邮箱：zy5290341@gmail.com
+#功能：本脚本用于拍数据集，利用工摄
+
 cmake_minimum_required(VERSION 3.11 )
 project(take_pictures)
 
