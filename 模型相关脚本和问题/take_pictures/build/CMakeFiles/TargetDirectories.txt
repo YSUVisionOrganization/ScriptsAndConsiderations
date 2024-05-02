@@ -1,0 +1,3 @@
+/home/zhouyan/code/take_pictures/build/CMakeFiles/rebuild_cache.dir
+/home/zhouyan/code/take_pictures/build/CMakeFiles/edit_cache.dir
+/home/zhouyan/code/take_pictures/build/CMakeFiles/take_pictures.dir

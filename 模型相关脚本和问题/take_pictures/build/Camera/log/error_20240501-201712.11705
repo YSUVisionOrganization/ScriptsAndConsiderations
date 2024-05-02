@@ -1,0 +1,4 @@
+Log file created at: 2024/05/01 20:17:12
+Running on machine: zhouyan-T58-V
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0501 20:17:12.193229 11705 MVCAMAPI.cpp:350] CameraInit Failed, err:-19,Version:2.1.0.37,FriendlyName:ñƒ+¾HEV?”V»>Ÿ®ê½u¡#=OùÄ»jÕ€¼/€=ƒ0¾"N?VÑ>óW,SN:	œ.¾È¶(?àæ?yò#¾–'k=˜C>¼±îN¼0Ët=áþ)¾Àn?
