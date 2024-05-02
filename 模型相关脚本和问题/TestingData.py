@@ -9,9 +9,9 @@ import matplotlib.patches as pat
 import cv2 as cv
 from PIL import Image, ImageDraw
 
-name="002311"
+name="000001"
 
-img_path="E:/model/yolov5/datasets/Armor/images/"+name+".jpg"
+img_path="E:/model/yolov5/datasets/Armor/images/"+name+".png"
 txt_path="E:/model/yolov5/datasets/Armor/labels/"+name+".txt"
 
 src_img=cv2.imread(img_path)
