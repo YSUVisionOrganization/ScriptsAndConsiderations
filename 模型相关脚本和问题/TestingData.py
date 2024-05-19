@@ -9,10 +9,12 @@ import matplotlib.patches as pat
 import cv2 as cv
 from PIL import Image, ImageDraw
 
-name="000001"
+name="001938"
 
-img_path="E:/model/yolov5/datasets/Armor/images/"+name+".png"
+img_path="E:/model/YOLOX-main(WASTE)/datasets/VOCdevkit1/VOC2007/JPEGImages/"+name+".jpg"
 txt_path="E:/model/yolov5/datasets/Armor/labels/"+name+".txt"
+# txt_path="C:/Users/JYT/Desktop/DesktopPremier/TUP/datasets/data_latest/labels/four203.txt"
+# img_path="C:/Users/JYT/Desktop/DesktopPremier/TUP/datasets/data_latest/images/four203.jpg"
 
 src_img=cv2.imread(img_path)
 
@@ -31,14 +33,17 @@ for line in txt:
     center_y=height*float(data[2])
     w=width*float(data[3])/2
     h=height*float(data[4])/2
-    print(center_x)
-    print(center_y)
-    print(h)
-    print(w)
+    # print(center_x)
+    # print(center_y)
+    # print(h)
+    # print(w)
     cv.rectangle(src_img, (int(center_x-w), int(center_y-h)), (int(center_x+w), int(center_y+h)), (0, 0, 255), 2)
+    # cv.rectangle(src_img, (int(width*float(data[3])), int(height*float(data[4]))), (int(width*float(data[7])), int(height*float(data[8]))), (0, 0, 255), 2)
+    # cv.rectangle(src_img, (int(width*float(data[1])), int(height*float(data[2]))), (int(width*float(data[5])), int(height*float(data[6]))), (0, 0, 255), 2)
+    #cv.rectangle(src_img, (int(width*float(data[3])), int(height*float(data[4]))), (int(width*float(data[1])), int(height*float(data[2]))), (0, 0, 255), 2)
 
 # rectangle 坐标的参数格式为左上角（x1, y1），右下角（x2, y2）。
 
 cv.namedWindow('img', cv.WINDOW_NORMAL)
 cv.imshow('img', src_img)
-cv.waitKey()
+cv.waitKey(0)

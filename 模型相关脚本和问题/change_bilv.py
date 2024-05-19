@@ -14,11 +14,11 @@ def process_file(file_path):
             processed_data = [data[0]]  # 保留第一个数不做处理
             for i in range(1, len(data)):
                 if i % 2 == 1:  # 奇数位除以1440
-                    num = float(data[i]) / 1920
+                    num = float(data[i]) / 1280
                     num=format(num, '.6f')
                     processed_data.append(str(num))
                 else:  # 偶数位除以810
-                    num = float(data[i]) / 1080
+                    num = float(data[i]) / 1024
                     num=format(num, '.6f')
                     processed_data.append(str(num))
             processed_line = ' '.join(processed_data) + '\n'
@@ -34,5 +34,5 @@ def process_files_in_directory(directory):
             process_file(file_path)
 
 # 用法示例
-folder_path = "C:\\Users\\JYT\\Desktop\\ji1"  # 替换为实际的文件夹路径
+folder_path = "C:/Users/JYT/Desktop/jyt"  # 替换为实际的文件夹路径
 process_files_in_directory(folder_path)

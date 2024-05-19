@@ -24,7 +24,7 @@ def count_category_ids(json_data):
 
 
 # 定义文件夹路径
-folder_path = "C:\\Users\\JYT\\Desktop\\ji1"
+folder_path = "C:/Users/JYT/Desktop/jyt"
 
 # 遍历文件夹中的文件
 for filename in os.listdir(folder_path):

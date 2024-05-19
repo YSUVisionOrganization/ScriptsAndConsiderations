@@ -4,7 +4,7 @@
 import os
 
 def rename_files(folder_path, new_filename_format):
-    t=0
+    t=3000
     # 遍历指定文件夹中的所有文件
     for filename in os.listdir(folder_path):
         # 构建旧文件路径和新文件路径
@@ -19,7 +19,7 @@ def rename_files(folder_path, new_filename_format):
             print(f"Renamed: {old_file_path} -> {new_file_path}")
 
 # 调用示例
-folder_path = "E:\model\yolov5\datasets\Armor\labels"
+folder_path = "E:/数据/label"
 new_filename_format = ""  # 使用大括号 {} 表示文件名的位置
 
 rename_files(folder_path, new_filename_format)

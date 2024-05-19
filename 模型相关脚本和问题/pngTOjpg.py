@@ -26,6 +26,6 @@ def png2jpg(files_list):
  
  
 if __name__ == '__main__':
-    dir = './photo' #png图片目录
+    dir = 'E:/model/yolov5/datasets/Armor/image' #png图片目录
     files_list = get_all_png_files(dir)
     png2jpg(files_list)
